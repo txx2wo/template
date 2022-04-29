@@ -80,8 +80,7 @@
 
         <!--=============== ABOUT ===============-->
         <section class="about section" id="about">
-            <span class="section__subtitle">Giới Thiệu</span>
-            <h2 class="section__title">Tôi</h2>
+            <h2 class="section__title">TEAM PROFILE</h2>
 
             <div class="about__container container grid">
                 <img src="./assets/img/about.jpg" alt="" class="about__img">
@@ -516,70 +515,10 @@
     </main>
 
     <!--=============== FOOTER ===============-->
-    <footer class="footer">
-        <div class="footer__container container">
-            <h1 class="footer__title">Tùng</h1>
-
-            <ul class="footer__list">
-                <li>
-                    <a href="#home" class="footer__link">Trang Chủ</a>
-                </li>
-                <li>
-                    <a href="#about" class="footer__link">Giới Thiệu</a>
-                </li>
-                <li>
-                    <a href="#work" class="footer__link">Sản Phẩm</a>
-                </li>
-            </ul>
-
-            <ul class="footer__social">
-                <a href="https://www.facebook.com/tungba1234/" target="_blank" class="footer__social-link">
-                    <i class='bx bxl-facebook'></i>
-                </a>
-                <a href="https://www.behance.net/tngnguyn74" target="_blank" class="footer__social-link">
-                    <i class='bx bxl-behance'></i>
-                </a>
-                <a href="https://www.youtube.com/channel/UCMjm2PliqXcoVkk1GUQ4SIg" target="_blank"
-                    class="footer__social-link">
-                    <i class='bx bxl-youtube'></i>
-                </a>
-            </ul>
-
-            <span class="footer__copy">
-                &#169; Nguyễn Bá Tùng. All rights reserved
-            </span>
-        </div>
-    </footer>
-    <div id="toast"></div>
-    <!-- FORM VALIDATOR -->
-    <script src="./assets/js/validator.js"></script>
-    <script>
-        Validator({
-            form: '#form-1',
-            formGroupSelector: '.contact__form-div',
-            errorSelector: '.form-message',
-            rules: [
-                Validator.isRequired('#fullname', 'Vui lòng nhập tên'),
-                Validator.isRequired('#email', 'Vui lòng nhập địa chỉ email'),
-                Validator.isEmail('#email', 'Địa chỉ email không hợp lệ'),
-                Validator.isRequired('#message', 'Vui lòng nhập nhập lời nhắn'),
-            ],
-            onSubmit: function (data) {
-                console.log(data);
-            }
+    
+       
         });
-    </script>
-    <!-- TOAST MESENGES -->
-    <script src="./assets/js/toast.js"></script>
-
-    <!--=============== SCROLLREVEAL ===============-->
-    <script src="./assets/js/scrollreveal.min.js"></script>
-
-    <!--=============== MIXITUP FILTER ===============-->
-    <script src="./assets/js/mixitup.min.js"></script>
-
-    <!--=============== MAIN JS ===============-->
-    <script src="./assets/js/main.js"></script>
+    
 </body>
 
 </html>
